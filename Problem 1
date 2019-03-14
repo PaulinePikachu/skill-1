@@ -1,0 +1,36 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main ()
+{
+	int box;
+	int sideline;
+	int premium ;
+	int general_admission;
+	float total_sale;
+
+	cout<<"Ticket Prices                            Number Of Tickets Sold" <<endl<<endl;
+	cout<<"box: 250"<<"                              ";
+	cin>>box;
+	cout<<"------>"<<box*250<<endl<<endl;
+
+	cout<<"sideline: 100"<<"                          ";
+	cin>>sideline;
+	cout <<"------>"<<sideline*100<<endl<<endl;
+
+	cout<<"premium:50"<<"                          ";
+	cin>>premium;
+	cout<<"------>"<<premium*50<<endl<<endl;
+	
+
+	cout<< "general admission:25"<<"             ";
+	cin>>general_admission;
+	cout<<"------>"<<general_admission*50<<endl<<endl;
+
+	cout<<"..............."<<endl;
+
+	_getch ();
+
+		return 0;
+
+}
